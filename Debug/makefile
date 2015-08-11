@@ -43,7 +43,7 @@ all: add.exe
 add.exe: $(OBJS) $(USER_OBJS)
 	@echo 'Building target: $@'
 	@echo 'Invoking: Cygwin C++ Linker'
-	g++ -L"D:\Programming\CPlus\workspace_cpp\add" -fprofile-arcs -ftest-coverage -o "add.exe" $(OBJS) $(USER_OBJS) $(LIBS)
+	g++ -L"D:\Programming\git\cplus\add" -fprofile-arcs -ftest-coverage -o "add.exe" $(OBJS) $(USER_OBJS) $(LIBS)
 	@echo 'Finished building target: $@'
 	@echo ' '
 
